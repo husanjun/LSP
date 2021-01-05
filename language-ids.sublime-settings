@@ -21,12 +21,32 @@
 // request at github.com/sublimelsp/LSP if you believe an entry is missing.
 {
     "source.c++": "cpp",
+    "source.coffee.gulpfile": "coffee", // github.com/SublimeText/AFileIcon
     "source.cs": "csharp",
     "source.dosbatch": "bat",
     "source.fixedform-fortran": "fortran", // https://packagecontrol.io/packages/Fortran
+    "source.groovy.gradle": "groovy", // github.com/SublimeText/AFileIcon
+    "source.groovy.jenkins": "groovy", // github.com/SublimeText/AFileIcon
     "source.js": "javascript",
+    "source.js.eslint": "javascript", // github.com/SublimeText/AFileIcon
+    "source.js.gruntfile": "javascript", // github.com/SublimeText/AFileIcon
+    "source.js.gulpfile": "javascript", // github.com/SublimeText/AFileIcon
+    "source.js.postcss": "javascript", // github.com/SublimeText/AFileIcon
+    "source.js.puglint": "javascript", // github.com/SublimeText/AFileIcon
     "source.js.react": "javascriptreact", // https://github.com/Thom1729/Sublime-JS-Custom
+    "source.js.stylelint": "javascript", // github.com/SublimeText/AFileIcon
+    "source.js.unittest": "javascript", // github.com/SublimeText/AFileIcon
+    "source.js.webpack": "javascript", // github.com/SublimeText/AFileIcon
     "source.json-tmlanguage": "jsonc", // https://github.com/SublimeText/PackageDev
+    "source.json.babel": "json", // github.com/SublimeText/AFileIcon
+    "source.json.bower": "json", // github.com/SublimeText/AFileIcon
+    "source.json.composer": "json", // github.com/SublimeText/AFileIcon
+    "source.json.eslint": "json", // github.com/SublimeText/AFileIcon
+    "source.json.npm": "json", // github.com/SublimeText/AFileIcon
+    "source.json.postcss": "json", // github.com/SublimeText/AFileIcon
+    "source.json.puglint": "json", // github.com/SublimeText/AFileIcon
+    "source.json.settings": "json", // github.com/SublimeText/AFileIcon
+    "source.json.stylelint": "json", // github.com/SublimeText/AFileIcon
     "source.json.sublime": "jsonc", // https://github.com/SublimeText/PackageDev
     "source.json.sublime.build": "jsonc", // https://github.com/SublimeText/PackageDev
     "source.json.sublime.color-scheme": "jsonc", // https://github.com/SublimeText/PackageDev
@@ -39,23 +59,43 @@
     "source.json.sublime.project": "jsonc", // https://github.com/SublimeText/PackageDev
     "source.json.sublime.settings": "jsonc", // https://github.com/SublimeText/PackageDev
     "source.json.sublime.theme": "jsonc", // https://github.com/SublimeText/PackageDev
+    "source.json.tern": "json", // github.com/SublimeText/AFileIcon
     "source.jsx": "javascriptreact",
+    "source.jsx.unittest": "javascriptreact", // github.com/SublimeText/AFileIcon
     "source.modern-fortran": "fortran", // https://packagecontrol.io/packages/Fortran
     "source.objc": "objective-c",
     "source.objc++": "objective-cpp",
     "source.shader": "shaderlab", // https://github.com/waqiju/unity_shader_st3
     "source.shell.bash": "shellscript",
+    "source.shell.docker": "shellscript", // github.com/SublimeText/AFileIcon
+    "source.shell.eslint": "shellscript", // github.com/SublimeText/AFileIcon
+    "source.shell.npm": "shellscript", // github.com/SublimeText/AFileIcon
+    "source.shell.ruby": "shellscript", // github.com/SublimeText/AFileIcon
+    "source.shell.stylelint": "shellscript", // github.com/SublimeText/AFileIcon
     "source.ts": "typescript",
     "source.ts.react": "typescriptreact", // https://github.com/Thom1729/Sublime-JS-Custom
+    "source.ts.unittest": "typescript", // github.com/SublimeText/AFileIcon
     "source.tsx": "typescriptreact",
+    "source.tsx.unittest": "typescriptreact", // github.com/SublimeText/AFileIcon
     "source.unity.unity_shader": "shaderlab", // https://github.com/petereichinger/Unity3D-Shader
+    "source.viml.vimrc": "viml", // github.com/SublimeText/AFileIcon
     "source.yaml-tmlanguage": "yaml", // https://github.com/SublimeText/PackageDev
+    "source.yaml.circleci": "yaml", // github.com/SublimeText/AFileIcon
+    "source.yaml.docker": "yaml", // github.com/SublimeText/AFileIcon
+    "source.yaml.eslint": "yaml", // github.com/SublimeText/AFileIcon
+    "source.yaml.lock": "yaml", // github.com/SublimeText/AFileIcon
+    "source.yaml.procfile": "yaml", // github.com/SublimeText/AFileIcon
+    "source.yaml.stylelint": "yaml", // github.com/SublimeText/AFileIcon
     "source.yaml.sublime.syntax": "yaml", // https://github.com/SublimeText/PackageDev
+    "source.yaml.yarn": "yaml", // github.com/SublimeText/AFileIcon
     "text.html.basic": "html",
+    "text.html.markdown.license": "markdown", // github.com/SublimeText/AFileIcon
     "text.html.markdown.rmarkdown": "r", // https://github.com/REditorSupport/sublime-ide-r
     "text.html.ngx": "html", // https://github.com/princemaple/ngx-html-syntax
     "text.plain": "txt",
     "text.xml.plist": "xml", // https://github.com/SublimeText/PackageDev
     "text.xml.plist.textmate.preferences": "xml", // https://github.com/SublimeText/PackageDev
     "text.xml.sublime.snippet": "xml", // https://github.com/SublimeText/PackageDev
+    "text.xml.svg": "xml", // github.com/SublimeText/AFileIcon
+    "text.xml.visualstudio": "xml", // github.com/SublimeText/AFileIcon
 }
