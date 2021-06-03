@@ -180,7 +180,11 @@ class LspHoverCommand(LspTextCommand):
         hover_content = self.hover_content()
         contents = self.diagnostics_content() + hover_content + self.code_actions_content()
         if contents and not only_diagnostics and hover_content:
-            contents += self.symbol_actions_content(listener, point)
+            symbol_actions_content = self.symbol_actions_content(listener, point)
+            if symbol_actions_content and userprefs().show_symbol_action_links == 'top':
+                contents = '{}<br>{}'.format(symbol_actions_content, contents)
+            else:
+                contents += symbol_actions_content
 
         _test_contents.clear()
         _test_contents.append(contents)  # for testing only

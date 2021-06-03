@@ -286,8 +286,18 @@
               "markdownDescription": "Where to show `\"code actions\"`. Due to API limitations, the `\"bulb\"` icon can not be clicked so the code actions can only be triggered using a keyboard shortcut or the context menu."
             },
             "show_symbol_action_links": {
-              "type": "boolean",
-              "default": false,
+              "type": "string",
+              "enum": [
+                "top",
+                "bottom",
+                ""
+              ],
+              "default": "bottom",
+              "enumDescriptions": [
+                "Show symbol action links in the top of hover popup.",
+                "Show symbol action links in the bottom of hover popup.",
+                "Do not show symbol action links."
+              ],
               "markdownDescription": "Show symbol action links in hover popup if available."
             },
             "only_show_lsp_completions": {
